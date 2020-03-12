@@ -1,0 +1,8 @@
+.isStuck {
+width: 100%;
+position: fixed;
+top:0px;
+}
+a.current {
+background-color: #222;
+}
