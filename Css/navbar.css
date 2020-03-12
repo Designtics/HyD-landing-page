@@ -1,8 +1,15 @@
-.isStuck {
-width: 100%;
-position: fixed;
-top:0px;
+
+ 
+.nav-wrapper {
+ 
+    background-color: rgb(49, 134, 245) !important;
+ 
+    font-size: 14px;
+ 
+    font-weight: bold;
+ 
+  }
+  * {
+    scroll-behavior: smooth;
 }
-a.current {
-background-color: #222;
-}
+ 
