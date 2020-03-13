@@ -1,5 +1,3 @@
-
-
 const indicator = document.querySelector('.nav-indicator');
 const items = document.querySelectorAll('.nav-item');
 
