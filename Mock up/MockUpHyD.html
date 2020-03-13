@@ -8,29 +8,42 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <title>Mockup HyD</title>
+    <title>HyD</title>
     <link rel="stylesheet" href="../Css/navbar.css">
     <link rel="stylesheet" href="../Css/footer.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <link rel="stylesheet" href="../Css/cards.css">
     <script src="../JS/nabvar.js"></script>
+    <meta charset="utf-8" />
 </head>
 
 <body>
-    <ul id="main_nav">
-        <li><a class="smoothScroll" href="#inicio">Inicio</a></li>
-        <li><a class="smoothScroll" href="#nosotros">Nosotros</a></li>
-        <li><a class="smoothScroll" href="#servicios">Servicios</a></li>
-        <li><a class="smoothScroll" href="#contacto">Contacto</a></li>
-    </ul>
+ 
 
-    <div class="parallax-container blue darken-3">
-        <div class="parallax"></div>
+
+
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="../images/stock-1863880_1920.jpg"></div>
+        
+        <div class="navbar-fixed" style="margin-left: 3%;margin-top: 1%;">
+            <nav class="nav">
+                <a href="#" > <img src="../images/Logo.png" height="100%"></a>
+                <a href="#¿Quienes somos?" class="nav-item " active-color="orange">¿quienes somos?</a>
+                <a href="#nuestros_servicios" class="nav-item" active-color="green">Nuestros servicios</a>
+                <a href="#Nuestros_clientes" class="nav-item" active-color="blue">Nuestros clientes</a>
+                <a href="#contactenos" class="nav-item" active-color="red">Contactenos</a>
+                <span class="nav-indicator"></span>
+            </nav>
+    
+    
+        </div>
     </div>
 
     <div class="section white">
         <div class="row container">
-            <div id="inicio" class="post_article">Aqui va mi texto</div>
+            <div id="¿Quienes somos?" class="post_article">Aqui va mi texto</div>
 
             <h2 class="header center-align">Carta quienes somos.</h2>
             <div class="col s12 m12 center-align">
@@ -51,85 +64,247 @@
         </div>
     </div>
 
-    <div class="parallax-container blue darken-3">
-        <div class="parallax"></div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="../images/keyboard-338502_1920.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
+            <div id="nuestros_servicios" class="post_article"></div>
             <h2 class="header center-align">cartas de los servicios</h2>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-content">
-                        <p>servicios que ofrecemos</p>
+            <div class="col s12 m8 l4 xl4">
+                <div class="card" style="width: 100%">
+                    <div class="card__image-container">
+                        <img class="card__image" src="../images/asesoria_fiscal.jpg" alt="" style="height: 60%;">
                     </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
+
+                    <svg class="card__svg" viewBox="0 0 800 500">
+
+                        <path
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                            stroke="transparent" fill="#6e78ff" />
+                        <path class="card__line"
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                            stroke="pink" stroke-width="3" fill="transparent" />
+                    </svg>
+
+                    <div class="card__content">
+                        <h5 class="card__title">Asesoría Tributaria</h5>
+                        <p>Ayuda con los procesos tributarios y fiscales para pequeñas, medianas
+                            empresas.
+                            Preparación de los formularios para la presentación de impuestos
+                            ante las entidades nacionales y distritales.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-content">
-                        <p>servicios que ofrecemos</p>
+                <div class="card" style="width: 100%">
+                    <div class="card__image-container">
+                        <img class="card__image" src="../images/asesoria_contable.jpg" alt="" style="height: 60%;">
                     </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
+
+                    <svg class="card__svg" viewBox="0 0 800 500">
+
+                        <path
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                            stroke="transparent" fill="#6e78ff" />
+                        <path class="card__line"
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                            stroke="pink" stroke-width="3" fill="transparent" />
+                    </svg>
+
+                    <div class="card__content">
+                        <h5 class="card__title">Asesoría Contable</h5>
+                        <p>
+                            Ayuda en lo referente a la parte de contabilidad que pueda necesitar su
+                            empresa.
+                            Outsourcing contable y financiero al día.
+                            Diagnóstico y radiografía del estado de la organización la
+                            inicial el proceso con HYD.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-content">
-                        <p>servicios que ofrecemos</p>
+                <div class="card" style="width: 100%">
+                    <div class="card__image-container">
+                        <img class="card__image" src="../images/factura.jpg" alt="" style="height: 60%;">
                     </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
+
+                    <svg class="card__svg" viewBox="0 0 800 500">
+
+                        <path
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                            stroke="transparent" fill="#6e78ff" />
+                        <path class="card__line"
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                            stroke="pink" stroke-width="3" fill="transparent" />
+                    </svg>
+
+                    <div class="card__content">
+                        <h5 class="card__title">factura</h5>
+                        <p>Factura electrónica ANJUS.
+                            Gran cobertura para la generacion de facturas.
+                            A cómodas tarifas de acuerdo al requerimiento de la empresa.
+                            Tramite de la Facturación Electrónica ante la DIAN sin intermediarios.
+                            Parametrización de PDF de la Factura.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-content">
-                        <p>servicios que ofrecemos</p>
+                <div class="card" style="width: 100%">
+                    <div class="card__image-container">
+                        <img class="card__image" src="../images/trabajo.jpg" alt="" style="height: 60%;">
                     </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
+
+                    <svg class="card__svg" viewBox="0 0 800 500">
+
+                        <path
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                            stroke="transparent" fill="#6e78ff" />
+                        <path class="card__line"
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                            stroke="pink" stroke-width="3" fill="transparent" />
+                    </svg>
+
+                    <div class="card__content">
+                        <h5 class="card__title">Gestion en Seguridad</h5>
+                        <p>
+                            Todo esto según las disposiciones es establecida en el Decreto 1072- 20150,
+                            Ley 1562 – 2012 y Resolución 1111 2017.
+                            Con el fin de dar cumplimiento a las leyes vigentes en salud
+                            ocupacional.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-content">
-                        <p>servicios que ofrecemos</p>
+                <div class="card" style="width: 100%">
+                    <div class="card__image-container">
+                        <img class="card__image" src="../images/nomina.jpg" alt="" style="height: 60%;">
                     </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
+
+                    <svg class="card__svg" viewBox="0 0 800 500">
+
+                        <path
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                            stroke="transparent" fill="#6e78ff" />
+                        <path class="card__line"
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                            stroke="pink" stroke-width="3" fill="transparent" />
+                    </svg>
+
+                    <div class="card__content">
+                        <h5 class="card__title">Nomina</h5>
+                        <p>
+                            colaboracion con el proceso de nominas y liquidaciones.
+                            Liquidación de nóminas mediante software debidamente
+                            certificado.
+                            Entrega de colillas de Nómina.
+                            Liquidación de Seguridad Social.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-content">
-                        <p>servicios que ofrecemos</p>
+                <div class="card" style="width: 100%">
+                    <div class="card__image-container">
+                        <img class="card__image" src="../images/soporte.jpg" alt="" style="height: 60%;">
                     </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
+
+                    <svg class="card__svg" viewBox="0 0 800 500">
+
+                        <path
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                            stroke="transparent" fill="#6e78ff" />
+                        <path class="card__line"
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                            stroke="pink" stroke-width="3" fill="transparent" />
+                    </svg>
+
+                    <div class="card__content">
+                        <h5 class="card__title">Soporte Tecnológico.</h5>
+                        <p>Lorem ipsum Nuestras opciones de soporte a nuestros clientes.
+                            Contamos con un grupo de Ingenieros en sistemas en diferentes
+                            ramas.
+                            En Outsourcing estamos en la capacidad de dar soporte.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m2"></div>
+
+            <div class="col s12 m4">
+                <div class="card" style="width: 100%">
+                    <div class="card__image-container">
+                        <img class="card__image" src="../images/tramites.jpg" alt="" style="height: 60%;">
+                    </div>
+
+                    <svg class="card__svg" viewBox="0 0 800 500">
+
+                        <path
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                            stroke="transparent" fill="#6e78ff" />
+                        <path class="card__line"
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                            stroke="pink" stroke-width="3" fill="transparent" />
+                    </svg>
+
+                    <div class="card__content">
+                        <h5 class="card__title">Diligencias y tramites.</h5>
+                        <p>
+                            Nuestro portafolio de tramites administrativos.
+                            Procesos administrativos.
+                            Carpeta de Apertura Comercial Ley 1801 2016 Artículo 87
+                            Seccretaria de medio ambiente.
+                            Camara y comercio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card" style="width: 100%">
+                    <div class="card__image-container">
+                        <img class="card__image" src="../images/RH.jpg" alt="" style="height: 60%;">
+                    </div>
+
+                    <svg class="card__svg" viewBox="0 0 800 500">
+
+                        <path
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                            stroke="transparent" fill="#6e78ff" />
+                        <path class="card__line"
+                            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+                            stroke="pink" stroke-width="3" fill="transparent" />
+                    </svg>
+
+                    <div class="card__content">
+                        <h5 class="card__title">Recursos Humanos.</h5>
+                        <p>
+                            Gestion humana.
+                            Afiliacion social integral.
+                            Politicas.
+                            Reglamento interno de trabajo.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="parallax-container blue darken-3">
-        <div class="parallax"></div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="../images/calculator-1044172_1920.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
+            <div id="Nuestros_clientes" class="post_article"></div>
             <h2 class="header center-align">Carta quienes somos.</h2>
             <div class="col l12 m12">
                 <div class="card  orange darken-4">
@@ -148,31 +323,33 @@
 <footer class="page-footer blue lighten-1">
     <div class="container">
         <div class="row">
+            <div id="contactenos" class="post_article">Aqui va mi texto</div>
             <div class="col l3 s12">
-                <h5 class="white-text" id="phones">Telefonos</h5>
+                <h5 class="white-text">telefonos</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!"><a class="grey-text text-lighten-3" href="#!"><i class="tiny material-icons">phone</i></a>telefonos</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!"><a class="grey-text text-lighten-3" href="#!"><i class="tiny material-icons">phone</i></a>telefonos</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!"><a class="grey-text text-lighten-3" href="#!"><i class="tiny material-icons">phone</i></a>telefonos</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!"><a class="grey-text text-lighten-3" href="#!"><i class="tiny material-icons">phone</i></a>telefonos</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">telefonos</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">telefonos</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">telefonos</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">telefonos</a></li>
                 </ul>
             </div>
-            <div class="col l3 offset-l2 s12" id="mails">
-                <h5 class="white-text">Mails</h5>
+            <div class="col l3 offset-l2 s12">
+                <h5 class="white-text">mails</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!"><a class="grey-text text-lighten-3" href="#!"><i class="tiny material-icons">email</i></a>mail</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!"><a class="grey-text text-lighten-3" href="#!"><i class="tiny material-icons">email</i></a>mail</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!"><a class="grey-text text-lighten-3" href="#!"><i class="tiny material-icons">email</i></a>mail</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">mail</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">mail</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">mail</a></li>
                 </ul>
             </div>
 
             <div class="col l4 m6" id="mapa_google">
-                
-                    <div class="card-content white-text">
-                        <span class="card-title"></span>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15906.77686750005!2d-74.0615742!3d4.6485233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31b53de2d1fac595!2sKonrad%20Lorenz%20University%20Foundation!5e0!3m2!1sen!2sco!4v1584028374902!5m2!1sen!2sco"></iframe>
-                    </div>
-               
+
+                <div class="card-content white-text">
+                    <span class="card-title"></span>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15906.77686750005!2d-74.0615742!3d4.6485233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31b53de2d1fac595!2sKonrad%20Lorenz%20University%20Foundation!5e0!3m2!1sen!2sco!4v1584028374902!5m2!1sen!2sco"></iframe>
+                </div>
+
             </div>
 
         </div>

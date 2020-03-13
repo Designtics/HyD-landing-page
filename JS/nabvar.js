@@ -1,27 +1,26 @@
+const indicator = document.querySelector('.nav-indicator');
+const items = document.querySelectorAll('.nav-item');
 
-$('a.smoothScroll').smoothScroll({
-    offset: -80,
-    scrollTarget: $(this).val()
+function handleIndicator(el) {
+  items.forEach(item => {
+    item.classList.remove('is-active');
+    item.removeAttribute('style');
+  });
+  
+  indicator.style.width = `${el.offsetWidth}px`;
+  indicator.style.left = `${el.offsetLeft}px`;
+  indicator.style.backgroundColor = el.getAttribute('active-color');
+
+  el.classList.add('is-active');
+  el.style.color = el.getAttribute('active-color');
+}
+
+
+items.forEach((item, index) => {
+  item.addEventListener('click', (e) => { handleIndicator(e.target)});
+  item.classList.contains('is-active') && handleIndicator(item);
 });
 
-$('.post_article').waypoint(
-    function (direction) {
-        if (direction === 'down') {
-            var wayID = $(this).attr('id');
-        } else {
-            var previous = $(this).prev();
-            var wayID = $(previous).attr('id');
-        }
-        $('.current').removeClass('current');
-        $('#main_nav a[href=#' + wayID + ']').addClass('current');
-    }, { offset: '40%' });
-
-var stickyNavTop = $('.nav').offset().top;
-
-var stickyNav = function () {
-   
-};
-stickyNav();
-$(window).scroll(function () {
-    stickyNav();
+$(document).ready(function(){
+  $('.parallax').parallax();
 });
