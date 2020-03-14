@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     line-height: 1.5;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 img {
     max-width: 100%;
@@ -10,8 +10,8 @@ img {
 .card {
     position: relative;
     background: #6e78ff;
-    width: 400px;
-    height: 75vh;
+    width: 340px;
+    height: 80vh;
     border-radius: 6px;
     padding: 2rem;
     color: rgb(255, 255, 255);
