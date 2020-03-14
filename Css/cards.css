@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     line-height: 1.5;
-    
+    font-size:medium;
 }
 img {
     max-width: 100%;
@@ -10,8 +10,8 @@ img {
 .card {
     position: relative;
     background: #6e78ff;
-    width: 340px;
-    height: 80vh;
+    width: 100%;
+    height: 80%;
     border-radius: 6px;
     padding: 2rem;
     color: rgb(255, 255, 255);
@@ -28,6 +28,9 @@ img {
 .card__image {
     opacity: 0;
     animation: ImageFadeIn 0.8s 1.4s forwards;
+    width: 100%;
+    height: 90%;
+
 }
 .card__title {
     color: white;
